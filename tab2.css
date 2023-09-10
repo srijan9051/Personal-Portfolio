@@ -1,0 +1,27 @@
+.secondSection .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 70px;
+}
+.vertical-desc {
+    position: relative;
+    top: 57px;
+    left: -15px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+}
+.leftSection {
+    font-size: 2rem;
+    width: 37%;
+}
+.leftSection .btn{
+    padding: 10px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}

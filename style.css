@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: " ";
+    background-color: #1e2167;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 26px 30px;
+    cursor: pointer;
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: white;
+     font-size: 17px;
+}
+.navbar ul li a:hover{
+   border-bottom: 2px solid #7972f0;
+   padding: 10px 0;
+}
+.brand {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 40%;
+}
+
+.leftSection{
+    font-size: 3rem;
+    width: 37%;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftSection .btn:hover{
+    transform: scale(110%);
+    transition: all 0.7s ease-in-out;
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+}
+.space{
+    width: 100%;
+}
+.rightSection img{
+    width: 80%;
+}
+.purple{
+    color: rgb(170,107,228);
+}
+.text-grey{
+    color: grey;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 86px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 95px;
+}
+.img-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 46px;
+    left: -15px;
+    width: 150px;
+    font-size: 16px;
+  
+}
+.vertical-desc{
+    position: relative;
+    top: 57px;
+    left: -15px;
+    color: grey;
+    width: 150px;
+    font-size: 11px;
+}
+.vertical-resp{
+    display: none;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 76vh;
+}
+.thirdSection h1{
+    font-size: 1.9rem;
+}
+.thirdSection .box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.thirdSection .left{
+    margin: 20px 10px;
+    display: inline;
+}
+.thirdSection .left img{
+    width: 10rem;
+    height: 10rem;
+    border: 4px solid blueviolet;
+    border-radius: 81px;
+}
+.thirdSection .right{
+    width: 80%;
+    margin: 10px 20px;
+}
+.fourthSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 120vh;
+}
+.fourthSection h1{
+    font-size: 1.9rem;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin-top: 57px;
+}
+.projects2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin-top: 57px;
+}
+.first{
+    margin: 12px 16px;
+    box-shadow: 0 4px 20px 3px rgb(233 228 228), 0 6px 20px 0 rgb(147, 146, 146);
+}
+.first:hover{
+    transform: scale(110%);
+    transition: all 0.5s ease-in-out;
+}
+.first img{
+    height: 12rem;
+    width: 12rem;
+    border-bottom: 4px solid blue;
+}
+.first p{
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+}
+.first a{
+    text-decoration: none;
+    color: rgb(170,107,228);
+}
+.first a:hover{
+    
+    font-size: 1.2rem;
+}
+.fifthSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+.fifthSection h1{
+    font-size: 1.9rem;
+}
+.fifthSection .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.fifthSection .container .box1{
+    width: 30vw;
+    height: 30vh;
+    border-bottom: 2px solid #7972f0;
+    text-align: center;
+    border-radius: 5px;
+}
+.fifthSection .container .box1:hover{
+    transform: scale(110%);
+    transition: all 0.5s ease-in-out;
+}
+.fifthSection .container .box1 h2{
+    font-family: cursive;
+    margin-top: 20px;
+}
+.fifthSection .container .box1 p{
+    margin-top: 40px;
+}
+.fifthSection .container .box1 p a{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #7972f0;
+    text-decoration: none;
+    color: white;
+}
+.fifthSection .container .box1 p a:hover{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+.fifthSection .container .box2{
+    width: 30vw;
+    height: 30vh;
+    border-bottom: 2px solid #7972f0;
+    text-align: center;
+    border-radius: 5px;
+}
+.fifthSection .container .box2:hover{
+    transform: scale(110%);
+    transition: all 0.5s ease-in-out;
+}
+.fifthSection .container .box2 h2{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.fifthSection .container .box2 p{
+    font-family: 'Poppins', sans-serif;
+    margin: -5px;
+}
+.fifthSection .container .box2 a{
+    text-decoration: none;
+    color: #7972f0;
+}
+.icons{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    max-width: 100vw;
+    height: 8vh;
+    background-color: rgb(18,18,62); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 15px;
+}
+.icons{
+    position: relative;
+    top: 7%;
+    left: 12%;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    margin: 2px 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate(-50%);
+    transition: all 1.5s ease-in-out;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}

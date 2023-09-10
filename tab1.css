@@ -1,0 +1,20 @@
+.secondSection .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 85px;
+}
+.vertical-desc {
+    position: relative;
+    top: 57px;
+    left: -15px;
+    color: grey;
+    width: 150px;
+    font-size: 10px;
+}
+.firstSection > div {
+    width: 43%;
+}
+.left{
+    font-size: 1.3rem;
+}
